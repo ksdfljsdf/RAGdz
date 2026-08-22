@@ -72,7 +72,7 @@
 1. Клонируй репозиторий:
 
    ```bash
-   git clone https://github.com/ksdfljsdf/RAGdz.git
+   git clone https://github.com/galim10/RAGdz.git
    cd RAGdz
    ```
 
@@ -112,13 +112,11 @@
 ```env
 BOT_TOKEN=<токен бота из телеграм @BotFather>
 GIGACHAT_AUTH_KEY=<ключ к API GigaChat, получить можно тут: https://developers.sber.ru/>
-GIGACHAT_CLIENT_ID=<Client ID оттуда же>
 OPENROUTER_API_KEY=<ключ к API OpenRouter>
 
 # опционально
 EMBEDDING_MODEL_DIR=<путь к локально скачанной модели BAAI/bge-m3, если не хочешь качать её при каждом запуске>
 ```
-
 Остальные параметры (модель GigaChat, размеры чанков, число результатов retrieval и т.д.) настраиваются в `config.py` и имеют разумные значения по умолчанию — трогать их не обязательно.
 
 ## Структура проекта

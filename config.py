@@ -6,7 +6,6 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     bot_token: str
     gigachat_auth_key: str
-    gigachat_client_id: str
     openrouter_api_key: str
     embedding_model_dir: str | None = None
 
